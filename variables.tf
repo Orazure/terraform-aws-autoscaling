@@ -30,6 +30,12 @@ variable "key" {
   default = "auth_key_pair"
   
 }
+
+variable "nameAmiNginx" {
+  type        = string
+  description = "Name AMI Nginx"
+  default = "ami-0fb6823b37110645b"
+}
   
 
   
